@@ -1,2 +1,1 @@
-# sim
-Sim racing companion app
+# Brake Aid Sim Edition

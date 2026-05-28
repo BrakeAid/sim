@@ -73,7 +73,39 @@ Brake Aid Sim Edition is not affiliated with, endorsed by, or sponsored by any s
 9. Start a race session (which will prompt the Brake Aid interface to reappear)
 10. Within the Brake Aid setup interface, click *Start New Session* (the interface will minimise to the system tray)
 11. Head out onto the race track and complete a *benchmark lap* which Brake Aid will analyse in the background.
-12. From the second lap onwards, Brake Aid will display dynamic brake markers for each of the corners using the on-screen *anticipation light* graphic, which will **illuminate amber** 1 second before reaching the corner's dynamic brake marker, then **turn off** at the **instant** that the marker point is reached.
+12. From the second lap onwards, Brake Aid will display dynamic brake markers for each of the corners using the on-screen *anticipation light* graphic, which will **illuminate amber** 1 second before reaching the corner's dynamic brake marker, then **turn off** at the **instant** that the marker point is reached.<br><br>
+
+### Windows Defender SmartScreen Notice
+
+Because Brake Aid is currently distributed as an unsigned public beta application, Windows Defender SmartScreen may display a warning when launching the software for the first time.
+
+This is expected behavior for newly distributed applications that have not yet established Windows reputation/signing trust.
+
+#### If Windows Displays “Windows protected your PC”
+- Click **More info**
+- Click **Run anyway**
+
+You may need to do this **once** on first launch for both:
+
+Brake Aid Beta.exe<br>
+BrakeAidCore.exe (see below)<br>
+
+#### If the Brake Aid UI Interface Opens But The Software Does Not Function Correctly
+
+Windows may have blocked Brake Aid's backend component (BrakeAidCore.exe) from starting.<br>
+(You can verify whether the backend component is running by checking whether the Brake Aid icon is present in the Windows system tray.)
+
+To resolve:
+1. Close the Brake Aid UI Window (if open)
+2. Open the Brake Aid root folder (the extracted ZIP)
+3. Navigate to the **Core Files** directory
+4. Manually launch **BrakeAidCore.exe**
+5. If prompted by Windows SmartScreen:
+- Click **More info**
+- Click **Run anyway**<br><br>
+The backend may immediately close after manual launch — this is normal
+6. Launch **Brake Aid Beta.exe** again normally — Brake Aid should now launch with full functionality.
+  
 
 ## Beta Access / License Token
 

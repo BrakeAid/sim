@@ -14,39 +14,59 @@
 
 
 ### Knowing When To Brake
-Braking is one of the most critical elements of race driving, directly influencing lap time, consistency, and overall vehicle control.<br>Knowing when to brake—and doing so consistently — is what separates confident, fast drivers from the rest.<br>
-Brake too late, and you risk overshooting the corner; too early, and you sacrifice speed.<br>
-Having a reliable braking point near the limit is a major advantage. It allows you to charge down a straight with confidence, spot your marker, and commit fully — knowing the car will slow exactly as needed to make the corner quickly and cleanly.<br>
-That confidence and certainty are what unlock a driver’s true potential and ultimately make winning possible.<br>
-At that point, driving becomes a matter of precision: simply hitting your marks, lap after lap. Small, clear adjustments — like braking two metres earlier — become easy to understand and execute, making performance gains both measurable and repeatable.
 
-### Unique Features
-Brake Aid delivers a real-time “BRAKE NOW” overlay by analysing your driving data through its adaptive algorithm.<br>
-It continuously learns from your inputs—tracking where you apply the brakes, your reaction time, rate of deceleration, and minimum corner speed for every corner, lap after lap.<br>
-To refine your braking points, you can adjust your marker in precise 2-metre increments using configurable button inputs, helping you find the optimal limit. Once locked in, Brake Aid dynamically updates your braking markers in real time based on your approach speed.<br>
-As your exit and entry speeds improve, the system moves your marker further back to maintain optimal corner performance. If conditions change — such as missed shifts or traffic — it automatically brings the marker forward.<br>
-All performance data is logged, including brake markers, driver inputs, car, and track details -- just dial in your brake markers once, and they’re ready every time you return — tailored to each car and track, with sharing support.
+Braking is one of the most critical elements of race driving, directly influencing lap time, consistency and overall vehicle control.<br>
+Knowing **when** to brake—and doing so consistently—is what separates confident, fast drivers from the rest.<br>
 
-### Overview
-- Analyses the players own driving performance to calculate dynamic brake markers for each corner of any race circuit.
-- Dynamic brake markers are communicated to the player using an on-screen *anticipation light* graphic that illuminates one second before the brake marker is reached, and turns off once the vehicle is at the brake marker, signalling the player to brake.
-- Dynamic brake makers are speed and reaction time compensated, to ensure consistent mid-corner and exit speeds, regardless of the vehicle's approach speed.
-- Brake markers are fine tuneable in two metre increments, via two user-assignable control inputs, to dial in braking performance for each corner of the race circuit.
-- Brake markers are iterative by default and are updated based on the braking performance of the previous lap.
-- *Don’t count lap* function allows the user to disregard the current lap being driven from updating the brake markers.
-- *Restricted mode* allows the user to freeze the current set of brake markers, so that they don’t update/iterate lap to lap.
-- Brake markers from a previous race session for a car and track combination can be reloaded in new sessions.
-- Multi-user support.
+Brake too late and you risk overshooting the corner. Brake too early and you sacrifice valuable speed all the way to the next straight.<br>
+
+Brake Aid helps remove the guesswork by providing intelligent, dynamic braking references that adapt to the conditions of each corner.<br>
+Rather than relying on fixed trackside markers, Brake Aid calculates when to brake based on your current approach speed and a braking dataset developed for the specific game, track and vehicle combination.<br>
+
+Whether you're learning a new circuit or refining the final few metres of your braking points, Brake Aid helps you build confidence, improve consistency, and focus on driving—one corner at a time.
+
+### Why Brake Aid?
+
+Brake Aid combines adaptive telemetry analysis with shareable braking datasets to deliver intelligent, real-time braking guidance for supported sim racing titles.<br>
+
+Experienced drivers can create and refine braking datasets using Brake Aid's adaptive learning mode, then export complete collections covering multiple game, track and vehicle combinations.<br>
+
+These dataset collections can be shared with other Brake Aid users, allowing them to immediately benefit from proven braking references without first completing a benchmark lap.<br>
+
+Every braking marker remains fully customisable. Drivers can fine-tune individual corners in precise two-metre increments while preserving the integrity of the original dataset, allowing each driver to gradually tailor the braking references to suit their own driving style.<br>
+
+When required, Brake Aid can seamlessly switch back into Adaptive Mode, allowing new braking events and changing driving performance to be incorporated into an updated braking dataset before returning to Dataset Hold Mode.
+
+
+## Overview
+
+- Import and use braking datasets created and refined by experienced Brake Aid users.
+- Export and share complete collections of braking datasets covering multiple game, track and vehicle combinations.
+- **Adaptive Mode** analyses your driving performance and continually generates updated dynamic braking datasets as your driving evolves.
+- **Dataset Hold Mode** preserves a braking dataset indefinitely while allowing individual brake markers to be personalised using per-corner distance offsets.
+- Switch seamlessly between **Adaptive Mode** and **Dataset Hold Mode** at any point during a driving session.
+- Dynamic brake markers automatically compensate for changes in approach speed to deliver consistent corner entry performance.
+- Brake markers are communicated using Brake Aid's on-screen **anticipation light**, providing a clear one-second braking cue before the calculated braking point is reached.
+- Fine-tune individual braking markers in precise two-metre increments using user-configurable controls.
+- The **Don't Count Lap** function prevents an unrepresentative lap from replacing your current braking dataset.
+- Save and resume braking datasets for every supported game, track and vehicle combination.
+- Multi-user support with independent driver profiles and braking datasets.
+
+
+## Shared Braking Datasets
+
+Brake Aid introduces a new way of learning race circuits.
+
+Experienced Brake Aid users can create, refine and export complete collections of braking datasets covering multiple supported games, tracks and vehicles.
+
+These collections can be shared with other drivers, allowing them to immediately begin using proven braking references instead of building every braking dataset from scratch.
+
+Imported datasets remain fully customisable. Individual brake markers can be adjusted to suit your own driving style while preserving the overall structure of the original dataset. When additional refinement is required, simply switch to Adaptive Mode to allow Brake Aid to generate an updated dataset based on your own driving performance.
 
 
 ## Supported Games
 - iRacing
 - Assetto Corsa
-
-### Third-Party Notice
-Brake Aid Sim Edition is an independent third-party add-on.<br>
-All game titles, trademarks, and related marks are the property of their respective owners.<br>
-Brake Aid Sim Edition is not affiliated with, endorsed by, or sponsored by any supported game developer or publisher unless explicitly stated.
 
 ## System Requirements
 - Operating System: Windows 10 or Windows 11 (64-bit)
@@ -60,7 +80,7 @@ Brake Aid Sim Edition is not affiliated with, endorsed by, or sponsored by any s
 #### Notes:
 - This software is an add-on and requires a compatible supported sim racing game to function.
 - Performance is primarily dependent on the host game’s system requirements rather than this add-on itself
-- Windows 10/11 Home and Pro are supported; other editions may work but have not been officially tested
+- Windows 10/11 Home and Pro are supported; other editions may work but may not be officially tested
 - For best compatibility, keep Windows and supported game installations up to date
 
 ## Quick Start
@@ -68,12 +88,19 @@ Brake Aid Sim Edition is not affiliated with, endorsed by, or sponsored by any s
 2. Extract the ZIP to a desired folder on your PC
 3. Run Brake Aid Beta.exe  
 4. On the setup interface, click *Button Mapping* in the left pane and map Brake Aid's functions to either keyboard keys or physical buttons on your sim hardware.
-5. Click *Brake Aid Setup* on the left pane, create a new user, then click *NEXT* on the bottom right.
-8. Launch a supported sim racing game
-9. Start a race session (which will prompt the Brake Aid interface to reappear)
-10. Within the Brake Aid setup interface, click *Start New Session* (the interface will minimise to the system tray)
-11. Head out onto the race track and complete a *benchmark lap* which Brake Aid will analyse in the background.
-12. From the second lap onwards, Brake Aid will display dynamic brake markers for each of the corners using the on-screen *anticipation light* graphic, which will **illuminate amber** 1 second before reaching the corner's dynamic brake marker, then **turn off** at the **instant** that the marker point is reached.<br><br>
+5. *(Optional but recommended)* Import an external Brake Aid dataset collection created by an experienced driver.
+6. Click *Brake Aid Setup* on the left pane, create a new user, then click *NEXT* on the bottom right.
+7. Launch a supported sim racing title.
+8. Start a race session (which will prompt the Brake Aid interface to reappear)
+9. Choose one of the available session options (this will cause the interface to minimise to the system tray):
+   - **Start with External Dataset**
+   - **Resume with Your Previous Dataset**
+   - **Start New Session (Adaptive Mode)**<br>
+     #### Note: If *Start New Session (Adaptive Mode)* has been selected, you will complete a *benchmark lap*  first, where Brake Aid will analyse your driving to generate an initial braking dataset (no dynamic brake markers are provided for the benchmark lap)
+10. Drive using Brake Aid's real-time anticipation light guidance.
+11. Personalise individual braking markers as required using the offset controls, or switch to Adaptive Mode to further develop the braking dataset.<br><br>
+
+
 
 ### Windows Defender SmartScreen Notice
 
